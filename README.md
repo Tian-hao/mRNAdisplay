@@ -1,10 +1,10 @@
-## mRNAdisplay
+# mRNAdisplay
 
 codes to map mRNA display data and find hits that strongly bind to the bait.
 
 also a tensor flow implementation to cross validate screen data.
 
-# 1. System requirements
+## 1. System requirements
 
 All software dependencies and operating systems (including version numbers)
 python > 3.6
@@ -22,7 +22,7 @@ I only tested the sottware on Hoffman2 and CentOS 6.7.
 Any required non-standard hardware:
 No.
 
-# 2. Installation guide
+## 2. Installation guide
 Instructions:
 1. On a Sun Grid Engine, load biopython first.
 Use mywrapper.sh to run Mapper1.py in batch.
@@ -35,7 +35,7 @@ Then open analysis.ipnb to analyze the mRNA display data.
 Typical install time on a "normal" desktop computer:
 <30 minutes.
 
-# 3. Demo
+## 3. Demo
 Instructions to run on data
 On a Sun Grid Engine, split sequencing file into chunks, then use mywrapper.sh to run Mapper1.py in batch.
 After Mapper1.py is done, run Mapper2.py to summarize reads.
@@ -52,7 +52,7 @@ Mapper1.py takes ~30min for each million reads.
 Mapper2.py takes ~10 hours to summarize ~600 million reads.
 analysis.ipnb takes ~2 hours to run all the analysis.
 
-# 4. Instructions for use
+## 4. Instructions for use
 How to run the software on your data
 Download data from:
 https://www.ncbi.nlm.nih.gov/bioproject/615649
